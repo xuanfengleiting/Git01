@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.i(TAG, "onCreate: "+"HAHAHA");
         Toast.makeText(this, "init ok", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "创建分支", Toast.LENGTH_SHORT).show();
 
 
     }
